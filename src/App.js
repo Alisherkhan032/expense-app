@@ -1,10 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import ExpenseForm from "./components/ExpenseForm";  
+import ViewExpenses from "./components/ViewExpenses";
+  
+  function App() {
   return (
-    <div className="">
-      <h1>Hello there</h1>
+    <div className="-mt-4">
+      <ExpenseForm />
+      <ViewExpenses />
     </div>
   );
 }
